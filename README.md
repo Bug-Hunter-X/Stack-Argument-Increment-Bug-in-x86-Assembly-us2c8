@@ -1,0 +1,3 @@
+# Stack Argument Increment Bug in x86 Assembly
+
+This repository demonstrates a common yet subtle bug in x86 assembly code related to modifying stack arguments. The provided assembly code attempts to increment a value passed to the function, but fails to correctly store the updated value back to its location on the stack. The corrected version illustrates how to properly handle this issue to achieve the desired behavior.
